@@ -1,0 +1,10 @@
+* vscode-open
+
+Open whatever folder you want as a project in vscode.
+
+** Install
+#+BEGIN_SRC shell
+git clone https://github.com/brettm12345/vscode-open && cd vscode-open
+chmod +x ./vscode-open.sh
+ln -s `pwd` ~/.local/bin/vscode-open
+#+END_SRC
